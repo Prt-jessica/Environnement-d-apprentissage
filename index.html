@@ -1,1 +1,135 @@
 
+[< Vers Acceuil](https://github.com/Rimbb/Exercice-Markdown-LesChapoulpes)    ||    [Vers Impressions >](https://github.com/Rimbb/Exercice-Markdown-LesChapoulpes/blob/master/IMPRESSIONS.md)
+
+# Qu'est-ce que le MARKDOWN ?
+
+Le Markdown est un **langage de balisage léger**. Il offre une syntaxe facile à lire et à écrire.
+Il a été créé en 2004 par John Gruber et Aaron Swartz.
+
+**Mise en oeuvre**  
+Le Markdown s'utilise avec différents langages de programmation : *Perl*, *PHP*, *Ruby*, *Java*, *Python*, C#*, etc. Il se termine par l'extension *.md* ou *.markdown*.
+
+**Utilisation**  
+Le Markdown est très polyvalent, il permet de créer des listes, des tableaux, des liens, insérer des images, etc.
+Ci-dessous, différents exemple d'application du Markdown.
+
+**Trucs et astuces de ninja**  
+:+1: Un unique caractère pour tous les dé-formater : l'anti-slash (ou backslash) ! " \ "  
+:metal: Un lien vers les emojis (car oui, tu peux en mettre P A R T O U T ! ) [Emoji Cheat List](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)  
+
+
+
+- - -
+
+# La syntaxe  
+
+### Mise en page
+
+| Syntaxe                                                    | Résultat                          |
+|------------------------------------------------------------|-----------------------------------|
+| \*Italic\*                                                 | *Italic*                          |
+| \*\*Bold\*\*                                               | **Bold**                          |
+| \# Titre (Jusqu'à 6 tailles variable avec le nombre de \#) | <h1>Titre</h1>                    |
+| \- - -                                                     |    Crée une ligne                 |
+| \~Text barré\~                                             | ~Texte barré~                     |
+| \> Citation                                                | <blockquote>Citation</blockquote> |
+| Double espace + Enter pour passer à la ligne suivante      |                                   |
+- - - -
+### Tableaux  
+###### Syntaxe  
+
+\| Un \| Exemple \| De \| Tableau \|  
+\|\---\|\---\|\---\|\---\|  
+\| 1 \| 2 \| 3 \| 4 \|  
+
+###### Résultat  
+
+| Un          |      Exemple  |  De    | Tableau  |
+|-------------|---------------|--------|----------|
+| 1           |  2            | 3      | 4        |  
+- - - -
+### Liste
+
+**Liste numérotée** (1. texte)
+1. First item  
+2. Second item  
+3. Third item  
+4. Fourth item  
+
+**Liste numérotée avec indentation** (1. texte + Tab)
+1. First item  
+2. Second item  
+3. Third item  
+	1. Indented item  
+	2. Indented item  
+4. Fourth item  
+
+**Liste à puce** (\- texte)
+- First item  
+- Second item  
+- Third item  
+- Fourth item  
+
+**Liste à puce avec indentation** (\- texte + Tab)
+- First item  
+- Second item  
+- Third item  
+	- Indented item  
+	- Indented item  
+- Fourth item  
+
+*Remarque : Vous pouvez ajouter des images, des blocs de citation ou des liens à une liste imbriquée(= "indentée"), en plus du texte.*
+- - - -
+### Liens
+
+**Un lien basique :**
+\[Nom que vous voulez donner au lien](url du lien "texte de l'infobulle")
+
+[Cette vidéo va changer votre vie !](https://www.youtube.com/watch?v=wZZ7oFKsKzY "My new life")
+
+**Une image en tant que lien :**
+\[![Légende](url vers l'image)](url vers une page)]
+
+[![Link](https://img.fireden.net/v/thumb/1524/43/1524437519508s.jpg)](https://www.youtube.com/watch?v=wZZ7oFKsKzY)
+- - - -
+
+### Images
+
+`` ![texte si l'image ne charge pas ](URL de l'image )``
+
+Exemple :
+
+![404 cat not found](https://www.dhresource.com/200x200s/f2-albu-g7-M00-A9-B5-rBVaSluHTzCAVr8yAAh2bVrzHRo546.jpg/halloween-cat-octopus-costumes-funny-cute.jpg)  
+
+Et ça fonctionne aussi avec des gifs :
+
+![404 octopus not found](https://media.giphy.com/media/WwMHQqMG0yirepFPP8/giphy.gif)
+- - - -
+
+### Afficher du code :
+
+Pour afficher du code en format brut (non interpreté) :
+ - faire tab a chaque ligne de code
+ - quatre espaces avant chaque ligne de code
+ -  utiliser trois bacticks avant votre bloc de code ( `` ` `` )  :
+
+	 `` ``` votre code ici``` ``
+
+Vous pouvez même afficher les couleurs en ajoutant le nom du langage après les backticks :  
+
+    ```js "votre code" ```
+donnera :     
+
+
+
+```js
+function myFunction() {
+  var x = "", i;
+  for (i=0; i<5; i++) {
+    x = x + "The number is " + i + "<br>";
+  }
+  document.getElementById("demo").innerHTML = x;
+}
+
+```
+[< Vers Acceuil](https://github.com/Rimbb/Exercice-Markdown-LesChapoulpes)    ||    [Vers Impressions >](https://github.com/Rimbb/Exercice-Markdown-LesChapoulpes/blob/master/IMPRESSIONS.md)

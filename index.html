@@ -1,124 +1,135 @@
 
-[< Vers Acceuil](https://github.com/Rimbb/Exercice-Markdown-LesChapoulpes)    ||    [Vers Impressions >](https://github.com/Rimbb/Exercice-Markdown-LesChapoulpes/blob/master/IMPRESSIONS.md)
+<!DOCTYPE html>
+	<html>
+		<meta charset="utf-8">
 
-# Qu'est-ce que le MARKDOWN ?
+<head>
+	<title> index </title>
 
-Le Markdown est un **langage de balisage léger**. Il offre une syntaxe facile à lire et à écrire.
-Il a été créé en 2004 par John Gruber et Aaron Swartz.
+<a href="https://github.com/Rimbb/Exercice-Markdown-LesChapoulpes">Vers Acceuil</a>    ||    <a href="https://github.com/Rimbb/Exercice-Markdown-LesChapoulpes/blob/master/IMPRESSIONS.md">Vers Impressions</a> 
+</head>
+<h1>Qu'est-ce que le MARKDOWN ?</h1>
 
-**Mise en oeuvre**  
-Le Markdown s'utilise avec différents langages de programmation : *Perl*, *PHP*, *Ruby*, *Java*, *Python*, C#*, etc. Il se termine par l'extension *.md* ou *.markdown*.
+<p>Le Markdown est un <strong>langage de balisage léger</strong>. Il offre une syntaxe facile à lire et à écrire.
+Il a été créé en 2004 par John Gruber et Aaron Swartz.</p>
 
-**Utilisation**  
+<p><strong>Mise en oeuvre</strong> 
+Le Markdown s'utilise avec différents langages de programmation : <em>Perl</em>, <em>PHP</em>, <em>Ruby</em>, <em>Java</em>, <em>Python</em>, <em>C#</em>, etc. Il se termine par l'extension <em>.md</em> ou <em>.markdown</em>.</p>
+
+<p><strong>Utilisation</strong>  
 Le Markdown est très polyvalent, il permet de créer des listes, des tableaux, des liens, insérer des images, etc.
-Ci-dessous, différents exemple d'application du Markdown.
+Ci-dessous, différents exemple d'application du Markdown.</p>
 
-**Trucs et astuces de ninja**  
+<p><strong>Trucs et astuces de ninja</strong>  
 :+1: Un unique caractère pour tous les dé-formater : l'anti-slash (ou backslash) ! " \ "  
-:metal: Un lien vers les emojis (car oui, tu peux en mettre P A R T O U T ! ) [Emoji Cheat List](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)  
+:metal: Un lien vers les emojis (car oui, tu peux en mettre P A R T O U T ! ) <a href="https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md">Emoji Cheat List</a></p>  
 
 
 
-- - -
 
-# La syntaxe  
 
-### Mise en page
+<h1> La syntaxe</h1>  
 
-| Syntaxe                                                    | Résultat                          |
-|------------------------------------------------------------|-----------------------------------|
-| \*Italic\*                                                 | *Italic*                          |
-| \*\*Bold\*\*                                               | **Bold**                          |
-| \# Titre (Jusqu'à 6 tailles variable avec le nombre de \#) | <h1>Titre</h1>                    |
-| \- - -                                                     |    Crée une ligne                 |
-| \~Text barré\~                                             | ~Texte barré~                     |
-| \> Citation                                                | <blockquote>Citation</blockquote> |
-| Double espace + Enter pour passer à la ligne suivante      |                                   |
-- - - -
-### Tableaux  
-###### Syntaxe  
+<h3> Mise en page</h3>
 
-\| Un \| Exemple \| De \| Tableau \|  
-\|\---\|\---\|\---\|\---\|  
-\| 1 \| 2 \| 3 \| 4 \|  
+	<table>
+<tr> <td>Syntaxe</td>                                      <td>Résultat</td> </tr>                          
+<tr> <td>------------------------------------------------------------</td><td>-----------------------------------</td> </tr>
+ <tr> <td>*Italic*</td>                                                 <td> <i>Italic</i>                          </td> </tr>
+<tr> <td>**Bold**</td>                                               <td> <b>Bold</b></td>                          </tr>
+<tr> <td># Titre (Jusqu'à 6 tailles variable avec le nombre de #) </td> <td> <h1>Titre</h1> </td>                   </tr>
+<tr> <td>                                                   </td> <td>     Crée une ligne                 </td> </tr>
+<tr> <td>~Text barré\~                                             </td> <td> <strike>Texte barré</strike>                     </td> </tr>
+<tr> <td> Citation                                                </td> <td> <blockquote>Citation</blockquote> </td> </tr>
+<tr> <td> Double espace + Enter pour passer à la ligne suivante      </td> <td>                                   </td> </tr>
 
-###### Résultat  
+<h3> Tableaux </h3>  
+<h6> Syntaxe </h6> 
 
-| Un          |      Exemple  |  De    | Tableau  |
-|-------------|---------------|--------|----------|
+	<table>
+<tr> <td>\|Un</td> <td>\|Exemple</td> <td>\|De</td> <td>\|Tableau\|</td> </tr>  
+<tr> <td>\|\---</td> <td>\|\---</td> <td>\|\---</td> <td>\|\---\|\</td></tr> 
+<tr> <td>\|1</td> <td>\|2</td> <td>\|3</td> <td>\|4\|</td> </tr>
+	</table>
+
+<h6> Résultat</h6>  
+	<table>
+<tr> <td>Un</td>  <td>Exemple</td>  <td>De</td> <td>Tableau </td> </tr>
+<tr> <td>-------------</td> <td>---------------</td> <td>--------</td> <td>----------</td> </tr>
 | 1           |  2            | 3      | 4        |  
-- - - -
-### Liste
+	</table>
 
-**Liste numérotée** (1. texte)
-1. First item  
-2. Second item  
-3. Third item  
-4. Fourth item  
+<h3> Liste</h3>
 
-**Liste numérotée avec indentation** (1. texte + Tab)
-1. First item  
-2. Second item  
-3. Third item  
-	1. Indented item  
-	2. Indented item  
-4. Fourth item  
+<strong>Liste numérotée</strong> (1. texte)
+	<ol>
+<li>First item</li>  
+<li>Second item</li>  
+<li>Third item</li>  
+<li>Fourth item</li>  
+	</ol>
+<strong>Liste numérotée avec indentation</strong> (1. texte + Tab)
+<ol> <li>First item</li>  
+<li> Second item</li>  
+<li>Third item</li>  
+<ol>	<li>Indented item</li>  
+		<li>Indented item</li>  </ol>
+<li>Fourth item</li>  
+</ol>
+<strong>Liste à puce</strong> (\- texte)
+<ul><li> First item</li>  
+<li> Second item</li>  
+<li> Third item </li> 
+<li>Fourth item</li>  
+</ul>
+<strong>Liste à puce avec indentation</strong> (\- texte + Tab)
+<ul><li>First item</li>  
+<li>Second item</li>  
+<li>Third item</li> 
+<ul>	<li>Indented item</li>  
+		<li>Indented item</li> </ul> 
+<li>Fourth item</li>  
+</ul>
+<i>Remarque : Vous pouvez ajouter des images, des blocs de citation ou des liens à une liste imbriquée(= "indentée"), en plus du texte.</i>
 
-**Liste à puce** (\- texte)
-- First item  
-- Second item  
-- Third item  
-- Fourth item  
+<h3> Liens </h3>
 
-**Liste à puce avec indentation** (\- texte + Tab)
-- First item  
-- Second item  
-- Third item  
-	- Indented item  
-	- Indented item  
-- Fourth item  
+<strong>Un lien basique :</strong> (url du lien "texte de l'infobulle")</br>
 
-*Remarque : Vous pouvez ajouter des images, des blocs de citation ou des liens à une liste imbriquée(= "indentée"), en plus du texte.*
-- - - -
-### Liens
-
-**Un lien basique :**
-\[Nom que vous voulez donner au lien](url du lien "texte de l'infobulle")
-
-[Cette vidéo va changer votre vie !](https://www.youtube.com/watch?v=wZZ7oFKsKzY "My new life")
-
-**Une image en tant que lien :**
+<a href="https://www.youtube.com/watch?v=wZZ7oFKsKzY" title="My new life"> Cette vidéo va changer votre vie ! </a>
+<p>
+<strong>Une image en tant que lien :</strong>
 \[![Légende](url vers l'image)](url vers une page)]
+</br>
+<a href="https://www.youtube.com/watch?v=wZZ7oFKsKzY"> <img src="https://img.fireden.net/v/thumb/1524/43/1524437519508s.jpg"> </a> </p>
 
-[![Link](https://img.fireden.net/v/thumb/1524/43/1524437519508s.jpg)](https://www.youtube.com/watch?v=wZZ7oFKsKzY)
-- - - -
 
-### Images
+<h3> Images</h3>
 
-`` ![texte si l'image ne charge pas ](URL de l'image )``
+`` ![texte si l'image ne charge pas ](URL de l'image )``</br>
 
-Exemple :
+<p>Exemple :</br>
 
-![404 cat not found](https://www.dhresource.com/200x200s/f2-albu-g7-M00-A9-B5-rBVaSluHTzCAVr8yAAh2bVrzHRo546.jpg/halloween-cat-octopus-costumes-funny-cute.jpg)  
+<a href"https://www.dhresource.com/200x200s/f2-albu-g7-M00-A9-B5-rBVaSluHTzCAVr8yAAh2bVrzHRo546.jpg/halloween-cat-octopus-costumes-funny-cute.jpg"> <img src="https://www.dhresource.com/200x200s/f2-albu-g7-M00-A9-B5-rBVaSluHTzCAVr8yAAh2bVrzHRo546.jpg/halloween-cat-octopus-costumes-funny-cute.jpg"> </a>  
+</p>
+Et ça fonctionne aussi avec des gifs :</br>
 
-Et ça fonctionne aussi avec des gifs :
+<a href="https://media.giphy.com/media/WwMHQqMG0yirepFPP8/giphy.gif"> <img src="https://camo.githubusercontent.com/d34bf67c73c0756629708ca10e188c8f6885f8e2/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f57774d4851714d47307969726570465050382f67697068792e676966"> </a>
 
-![404 octopus not found](https://media.giphy.com/media/WwMHQqMG0yirepFPP8/giphy.gif)
-- - - -
 
-### Afficher du code :
+<h3> Afficher du code :</h3>
 
-Pour afficher du code en format brut (non interpreté) :
- - faire tab a chaque ligne de code
- - quatre espaces avant chaque ligne de code
- -  utiliser trois bacticks avant votre bloc de code ( `` ` `` )  :
+<p>Pour afficher du code en format brut (non interpreté) :
+ <ul> <li> faire tab a chaque ligne de code</li>
+ <li>quatre espaces avant chaque ligne de code</li>
+ <li> utiliser trois bacticks avant votre bloc de code( `` ` `` )  :</li> </ul></br>
+</p>
+<p>	 `` ``` votre code ici``` ``</br>
 
-	 `` ``` votre code ici``` ``
-
-Vous pouvez même afficher les couleurs en ajoutant le nom du langage après les backticks :  
-
-    ```js "votre code" ```
-donnera :     
+Vous pouvez même afficher les couleurs en ajoutant le nom du langage après les backticks :</br>  
+</p>
+ <p>   ```js "votre code" ```
+donnera :</br>     
 
 
 
@@ -130,6 +141,8 @@ function myFunction() {
   }
   document.getElementById("demo").innerHTML = x;
 }
-
+</p>
 ```
-[< Vers Acceuil](https://github.com/Rimbb/Exercice-Markdown-LesChapoulpes)    ||    [Vers Impressions >](https://github.com/Rimbb/Exercice-Markdown-LesChapoulpes/blob/master/IMPRESSIONS.md)
+<a href="https://github.com/Rimbb/Exercice-Markdown-LesChapoulpes"> Vers Acceuil</a>    ||    <a href="https://github.com/Rimbb/Exercice-Markdown-LesChapoulpes/blob/master/IMPRESSIONS.md"> ers Impressions</a>
+
+</html>
